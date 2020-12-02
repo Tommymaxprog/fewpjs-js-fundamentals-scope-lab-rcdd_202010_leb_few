@@ -1,7 +1,7 @@
-animal = ""
+let animal = ""
 
 function myAnimal() {
-  return animal
+  return (animal);
 }
 
 function yourAnimal() {
@@ -12,8 +12,9 @@ function yourAnimal() {
 }
 
 function add2(n) {
-  return n + two
+   let two = 2;
+  return (n + two);
 
   // Feel free to move things around!
-  two = 2
+
 }
